@@ -15,7 +15,7 @@ Nie używaj automatyzacji do działań, do których nie masz uprawnień. Testuj 
 
 ## Wymagania
 
-* Python 3.8+
+* Python 3.13+
 * Biblioteki:
 
   * `pyautogui` (`pip install pyautogui`)
